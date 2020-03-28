@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    "hide-element",
+    "back-to-top-button",
+    "code",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "pageview-count",
+    "tbfed-pagefooter",
+    "popup",
+    "github",
+    "page-toc-button"
+  ],
+  "pluginsConfig": {
+    "hide-element": {
+      "elements": [
+        ".gitbook-link"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy interview.qulongjun.com 2020",
+      "modify_label": "该文章修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "github": {
+      "url": "https://github.com/qulongjun"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    }
+  }
+}
